@@ -1,8 +1,7 @@
 ### Home Controller
 GET http://localhost:8080
 
-### Auth Controller
-
+### Auth Controller signup 1
 POST http://localhost:8080/auth/signup
 Content-Type: application/json
 
@@ -11,3 +10,14 @@ Content-Type: application/json
     "email": "mohammadasif2808@gmail.com",
     "password": "pass@1234"
 }
+
+### Auth Controller signup 2
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+
+{
+    "fullName": "Shabana Parveen",
+    "email": "shab123parveen@gmail.com",
+    "password": "shab@1234"
+}
+
