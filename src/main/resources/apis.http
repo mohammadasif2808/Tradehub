@@ -21,3 +21,12 @@ Content-Type: application/json
     "password": "shab@1234"
 }
 
+### Auth Controller signin 1
+POST http://localhost:8080/auth/signin
+Content-Type: application/json
+
+{
+    "email": "mohammadasif2808@gmail.com",
+    "password": "pass@1234"
+}
+
